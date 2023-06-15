@@ -1,0 +1,542 @@
+[
+  {
+    "id": "clix3ppxa0005sgtvfm2f1zjw",
+    "name": "GridNet",
+    "numberOfEmployees": 50,
+    "shortDescription": "Providing blockchain solutions for secure energy transactions.",
+    "avgYearlyRevenue": 5000000,
+    "stage": "Series A",
+    "hiring": true,
+    "location": "San Francisco"
+  },
+  {
+    "id": "clix3ppxb0006sgtv4xy7ecc5",
+    "name": "EcoTrace",
+    "numberOfEmployees": 100,
+    "shortDescription": "Innovating the supply chain with eco-friendly AI analytics.",
+    "avgYearlyRevenue": 8000000,
+    "stage": "Series B",
+    "hiring": false,
+    "location": "Boston"
+  },
+  {
+    "id": "clix3ppxi0007sgtv992m31cj",
+    "name": "ZennithAI",
+    "numberOfEmployees": 30,
+    "shortDescription": "Leading the path in AI-powered predictive healthcare solutions.",
+    "avgYearlyRevenue": 3000000,
+    "stage": "Seed",
+    "hiring": true,
+    "location": "Chicago"
+  },
+  {
+    "id": "clix3ppxj0008sgtv4l8chn5o",
+    "name": "InnoSpace",
+    "numberOfEmployees": 20,
+    "shortDescription": "Pushing the boundaries of exploration with private space travel.",
+    "avgYearlyRevenue": 7000000.5,
+    "stage": "Series C",
+    "hiring": false,
+    "location": "Seattle"
+  },
+  {
+    "id": "clix3ppxj0009sgtv37y8fy35",
+    "name": "DataCrunch",
+    "numberOfEmployees": 75,
+    "shortDescription": "Leveraging big data for accurate market prediction and analytics.",
+    "avgYearlyRevenue": 4000000.25,
+    "stage": "Series A",
+    "hiring": true,
+    "location": "San Diego"
+  },
+  {
+    "id": "clix3q6gr000asgtvg7kqdiw5",
+    "name": "LifeCraft",
+    "numberOfEmployees": 32,
+    "shortDescription": "Tailoring health and wellness with AI-powered personalization.",
+    "avgYearlyRevenue": 3200000,
+    "stage": "Seed",
+    "hiring": true,
+    "location": "Austin"
+  },
+  {
+    "id": "clix3q6gr000bsgtv1fmf8riz",
+    "name": "GreenGroove",
+    "numberOfEmployees": 80,
+    "shortDescription": "Revolutionizing agriculture with sustainable smart farming.",
+    "avgYearlyRevenue": 4700000,
+    "stage": "Series B",
+    "hiring": false,
+    "location": "Portland"
+  },
+  {
+    "id": "clix3q6gz000csgtvg20f2zyt",
+    "name": "MindMesh",
+    "numberOfEmployees": 70,
+    "shortDescription": "Merging neurosciences with AI for cognitive enhancement.",
+    "avgYearlyRevenue": 7600000,
+    "stage": "Series A",
+    "hiring": true,
+    "location": "Miami"
+  },
+  {
+    "id": "clix3q6gz000dsgtv3p4u6xxr",
+    "name": "CryptoKnight",
+    "numberOfEmployees": 90,
+    "shortDescription": "Pioneering digital asset security with quantum-resistant algorithms.",
+    "avgYearlyRevenue": 9300000,
+    "stage": "IPO",
+    "hiring": false,
+    "location": "San Jose"
+  },
+  {
+    "id": "clix3q6h0000esgtvdk47dr74",
+    "name": "NanoNest",
+    "numberOfEmployees": 27,
+    "shortDescription": "Expanding possibilities with atom-precise manufacturing technologies.",
+    "avgYearlyRevenue": 3100000,
+    "stage": "Seed",
+    "hiring": true,
+    "location": "Denver"
+  },
+  {
+    "id": "clix3q6h0000fsgtvao4jgtvr",
+    "name": "RoboRoot",
+    "numberOfEmployees": 45,
+    "shortDescription": "Automating precision agriculture with robotics and AI.",
+    "avgYearlyRevenue": 5200000,
+    "stage": "Series A",
+    "hiring": false,
+    "location": "Phoenix"
+  },
+  {
+    "id": "clix3q6h1000gsgtv7fnk1w1v",
+    "name": "Holoverse",
+    "numberOfEmployees": 115,
+    "shortDescription": "Transforming entertainment with immersive holographic experiences.",
+    "avgYearlyRevenue": 11000000,
+    "stage": "Series C",
+    "hiring": true,
+    "location": "Los Angeles"
+  },
+  {
+    "id": "clix3q6h2000hsgtva8ymcrve",
+    "name": "BioBlend",
+    "numberOfEmployees": 60,
+    "shortDescription": "Creating environmentally friendly bioplastics for a sustainable future.",
+    "avgYearlyRevenue": 6600000,
+    "stage": "Series B",
+    "hiring": false,
+    "location": "San Francisco"
+  },
+  {
+    "id": "clix3q6h2000isgtv9peha0ja",
+    "name": "QuantumQuirk",
+    "numberOfEmployees": 33,
+    "shortDescription": "Innovating high-tech industries with scalable quantum computing.",
+    "avgYearlyRevenue": 3300000,
+    "stage": "Seed",
+    "hiring": true,
+    "location": "Boston"
+  },
+  {
+    "id": "clix3q6h3000jsgtvd59efsh5",
+    "name": "CyberShield",
+    "numberOfEmployees": 110,
+    "shortDescription": "Ensuring digital security with next-gen cyber defense mechanisms.",
+    "avgYearlyRevenue": 8800000,
+    "stage": "Series C",
+    "hiring": false,
+    "location": "New York"
+  },
+  {
+    "id": "clix3qhpd000ksgtv8oywcrxm",
+    "name": "GenomeGenie",
+    "numberOfEmployees": 35,
+    "shortDescription": "Advanced genetic analysis and personalized healthcare solutions.",
+    "avgYearlyRevenue": 5700000,
+    "stage": "Series A",
+    "hiring": true,
+    "location": "Houston"
+  },
+  {
+    "id": "clix3qhpf000lsgtva041afh1",
+    "name": "SmartSilo",
+    "numberOfEmployees": 45,
+    "shortDescription": "Smart storage solutions for modern agricultural needs.",
+    "avgYearlyRevenue": 2800000,
+    "stage": "Seed",
+    "hiring": false,
+    "location": "Dallas"
+  },
+  {
+    "id": "clix3qhpo000msgtvdv17e7ys",
+    "name": "ProxiPay",
+    "numberOfEmployees": 120,
+    "shortDescription": "Proximity payments through advanced near-field communication.",
+    "avgYearlyRevenue": 8400000,
+    "stage": "IPO",
+    "hiring": true,
+    "location": "Seattle"
+  },
+  {
+    "id": "clix3qhpp000nsgtvd68fcb7g",
+    "name": "NeuraSense",
+    "numberOfEmployees": 70,
+    "shortDescription": "Deep learning solutions for autonomous vehicles.",
+    "avgYearlyRevenue": 6800000,
+    "stage": "Series C",
+    "hiring": false,
+    "location": "Detroit"
+  },
+  {
+    "id": "clix3qhpq000osgtvf1rd3t70",
+    "name": "FoodFinder",
+    "numberOfEmployees": 30,
+    "shortDescription": "AI-based food recommendation and delivery platform.",
+    "avgYearlyRevenue": 3600000,
+    "stage": "Series B",
+    "hiring": true,
+    "location": "Las Vegas"
+  },
+  {
+    "id": "clix3qhpr000psgtv42u5bte0",
+    "name": "CleanCatalyst",
+    "numberOfEmployees": 100,
+    "shortDescription": "Innovative catalysts for clean and efficient chemical processes.",
+    "avgYearlyRevenue": 9500000,
+    "stage": "Series C",
+    "hiring": false,
+    "location": "Philadelphia"
+  },
+  {
+    "id": "clix3qhpt000qsgtvbm77hbxb",
+    "name": "VoiceVista",
+    "numberOfEmployees": 40,
+    "shortDescription": "Voice recognition software for smart homes.",
+    "avgYearlyRevenue": 4800000,
+    "stage": "Seed",
+    "hiring": true,
+    "location": "San Diego"
+  },
+  {
+    "id": "clix3qhpv000rsgtv5sgyhmp4",
+    "name": "CryptoGuard",
+    "numberOfEmployees": 90,
+    "shortDescription": "Next-level encryption technology for secure communications.",
+    "avgYearlyRevenue": 7900000,
+    "stage": "Series A",
+    "hiring": false,
+    "location": "San Jose"
+  },
+  {
+    "id": "clix3qhpx000ssgtvaidi05xd",
+    "name": "SkyDream",
+    "numberOfEmployees": 110,
+    "shortDescription": "Affordable space tourism for everyone.",
+    "avgYearlyRevenue": 10000000,
+    "stage": "IPO",
+    "hiring": true,
+    "location": "Austin"
+  },
+  {
+    "id": "clix3qhpx000tsgtv2tqq99yn",
+    "name": "TrackFast",
+    "numberOfEmployees": 35,
+    "shortDescription": "Real-time GPS tracking for logistics optimization.",
+    "avgYearlyRevenue": 3900000,
+    "stage": "Seed",
+    "hiring": false,
+    "location": "Denver"
+  },
+  {
+    "id": "clix3qhpz000usgtvgs2p8zlb",
+    "name": "ClearWater",
+    "numberOfEmployees": 85,
+    "shortDescription": "Water purification solutions for the developing world.",
+    "avgYearlyRevenue": 6300000,
+    "stage": "Series B",
+    "hiring": true,
+    "location": "Phoenix"
+  },
+  {
+    "id": "clix3qhq0000vsgtv1jv6giwf",
+    "name": "SolarSphere",
+    "numberOfEmployees": 60,
+    "shortDescription": "High-efficiency solar cells for residential use.",
+    "avgYearlyRevenue": 5100000,
+    "stage": "Series A",
+    "hiring": false,
+    "location": "Los Angeles"
+  },
+  {
+    "id": "clix3qhq1000wsgtv7wyc7ti2",
+    "name": "EduEnable",
+    "numberOfEmployees": 120,
+    "shortDescription": "EdTech platform for inclusive and personalized learning.",
+    "avgYearlyRevenue": 7300000,
+    "stage": "Series C",
+    "hiring": true,
+    "location": "San Francisco"
+  },
+  {
+    "id": "clix3qhq3000xsgtv3u5vef52",
+    "name": "AeroSpeed",
+    "numberOfEmployees": 45,
+    "shortDescription": "High-speed wireless internet for remote areas.",
+    "avgYearlyRevenue": 4200000,
+    "stage": "Seed",
+    "hiring": false,
+    "location": "Boston"
+  },
+  {
+    "id": "clix3qhq4000ysgtv9phx5sqc",
+    "name": "NaturaNode",
+    "numberOfEmployees": 55,
+    "shortDescription": "AI-powered pest control for organic farming.",
+    "avgYearlyRevenue": 6100000,
+    "stage": "Series A",
+    "hiring": true,
+    "location": "Chicago"
+  },
+  {
+    "id": "clix3qhq5000zsgtvc3i21fxu",
+    "name": "SafeHaven",
+    "numberOfEmployees": 90,
+    "shortDescription": "Smart home security solutions for the modern homeowner.",
+    "avgYearlyRevenue": 7400000,
+    "stage": "Series B",
+    "hiring": false,
+    "location": "New York"
+  },
+  {
+    "id": "clix3qhq60010sgtv3yhm9790",
+    "name": "HealthHarmony",
+    "numberOfEmployees": 80,
+    "shortDescription": "AI-based telehealth for personalized care at home.",
+    "avgYearlyRevenue": 5600000,
+    "stage": "IPO",
+    "hiring": true,
+    "location": "San Antonio"
+  },
+  {
+    "id": "clix3qhq80011sgtv8vg840xj",
+    "name": "AlphaAI",
+    "numberOfEmployees": 150,
+    "shortDescription": "General-purpose AI for business automation.",
+    "avgYearlyRevenue": 9000000,
+    "stage": "Series C",
+    "hiring": false,
+    "location": "Seattle"
+  },
+  {
+    "id": "clix3qhq90012sgtvew1a7y8j",
+    "name": "QuickCharge",
+    "numberOfEmployees": 40,
+    "shortDescription": "Ultra-fast charging solutions for electric vehicles.",
+    "avgYearlyRevenue": 3300000,
+    "stage": "Seed",
+    "hiring": true,
+    "location": "San Diego"
+  },
+  {
+    "id": "clix3qhqa0013sgtvf8uzh2fl",
+    "name": "FiberFlow",
+    "numberOfEmployees": 130,
+    "shortDescription": "High-speed fiber-optic internet for businesses.",
+    "avgYearlyRevenue": 11000000,
+    "stage": "IPO",
+    "hiring": false,
+    "location": "Houston"
+  },
+  {
+    "id": "clix3ukr80014sgtv0jo48pd9",
+    "name": "DataDive",
+    "numberOfEmployees": 50,
+    "shortDescription": "Streamlining business intelligence through data analysis tools.",
+    "avgYearlyRevenue": 5000000,
+    "stage": "Series A",
+    "hiring": true,
+    "location": "Seattle"
+  },
+  {
+    "id": "clix3ukr90015sgtv92od96ju",
+    "name": "ChatChain",
+    "numberOfEmployees": 30,
+    "shortDescription": "Decentralized chat platform with blockchain security.",
+    "avgYearlyRevenue": 3000000,
+    "stage": "Seed",
+    "hiring": false,
+    "location": "San Francisco"
+  },
+  {
+    "id": "clix3ukrh0016sgtv1002fay0",
+    "name": "AutoAds",
+    "numberOfEmployees": 90,
+    "shortDescription": "Automating ad placements with AI algorithms.",
+    "avgYearlyRevenue": 8000000,
+    "stage": "Series B",
+    "hiring": true,
+    "location": "New York"
+  },
+  {
+    "id": "clix3ukrh0017sgtv50c99ie0",
+    "name": "EcoEnergy",
+    "numberOfEmployees": 70,
+    "shortDescription": "Renewable energy solutions for a sustainable future.",
+    "avgYearlyRevenue": 7000000,
+    "stage": "Series C",
+    "hiring": false,
+    "location": "Denver"
+  },
+  {
+    "id": "clix3ukrj0018sgtv4gul67b2",
+    "name": "FashionFit",
+    "numberOfEmployees": 40,
+    "shortDescription": "Tailoring fashion with AI-powered personalization.",
+    "avgYearlyRevenue": 4000000,
+    "stage": "Seed",
+    "hiring": true,
+    "location": "Los Angeles"
+  },
+  {
+    "id": "clix3ukrj0019sgtv0cdxbbzy",
+    "name": "MealMind",
+    "numberOfEmployees": 60,
+    "shortDescription": "AI-based meal recommendation and delivery platform.",
+    "avgYearlyRevenue": 6000000,
+    "stage": "Series A",
+    "hiring": false,
+    "location": "Chicago"
+  },
+  {
+    "id": "clix3ukrk001asgtv2ln27eo3",
+    "name": "RoboRide",
+    "numberOfEmployees": 110,
+    "shortDescription": "Autonomous ride-hailing service for smart cities.",
+    "avgYearlyRevenue": 10000000,
+    "stage": "IPO",
+    "hiring": true,
+    "location": "Boston"
+  },
+  {
+    "id": "clix3ukrk001bsgtv2qau88ew",
+    "name": "FarmFresh",
+    "numberOfEmployees": 35,
+    "shortDescription": "Connecting farmers to consumers with blockchain tech.",
+    "avgYearlyRevenue": 3500000,
+    "stage": "Seed",
+    "hiring": false,
+    "location": "San Diego"
+  },
+  {
+    "id": "clix3ukrm001csgtv3tzyfrqj",
+    "name": "StudyStream",
+    "numberOfEmployees": 120,
+    "shortDescription": "Streaming platform for educational content.",
+    "avgYearlyRevenue": 12000000,
+    "stage": "Series C",
+    "hiring": true,
+    "location": "San Jose"
+  },
+  {
+    "id": "clix3ukrm001dsgtv4oiz9rm3",
+    "name": "HealthHub",
+    "numberOfEmployees": 45,
+    "shortDescription": "Comprehensive digital platform for health and wellness.",
+    "avgYearlyRevenue": 4500000,
+    "stage": "Series B",
+    "hiring": false,
+    "location": "Austin"
+  },
+  {
+    "id": "clix3ukrn001esgtvch454y0n",
+    "name": "SpaceSpan",
+    "numberOfEmployees": 80,
+    "shortDescription": "Creating affordable satellite technology for communication.",
+    "avgYearlyRevenue": 8000000,
+    "stage": "Series A",
+    "hiring": true,
+    "location": "Houston"
+  },
+  {
+    "id": "clix3ukrn001fsgtv1sdjfsag",
+    "name": "EduVista",
+    "numberOfEmployees": 100,
+    "shortDescription": "VR-based educational experiences for interactive learning.",
+    "avgYearlyRevenue": 9500000,
+    "stage": "Series C",
+    "hiring": false,
+    "location": "Phoenix"
+  },
+  {
+    "id": "clix3ukro001gsgtvam3palme",
+    "name": "InsureInsta",
+    "numberOfEmployees": 55,
+    "shortDescription": "Instant insurance claims using AI and machine learning.",
+    "avgYearlyRevenue": 5500000,
+    "stage": "Seed",
+    "hiring": true,
+    "location": "Philadelphia"
+  },
+  {
+    "id": "clix3ukrp001hsgtv26h97k3l",
+    "name": "HoloHost",
+    "numberOfEmployees": 75,
+    "shortDescription": "Providing virtual meeting spaces with hologram technology.",
+    "avgYearlyRevenue": 7500000,
+    "stage": "Series B",
+    "hiring": false,
+    "location": "Las Vegas"
+  },
+  {
+    "id": "clix3ukrq001isgtvcmsl5u15",
+    "name": "CryptoSecure",
+    "numberOfEmployees": 85,
+    "shortDescription": "Securing digital assets with next-generation encryption tech.",
+    "avgYearlyRevenue": 8300000,
+    "stage": "IPO",
+    "hiring": true,
+    "location": "San Antonio"
+  },
+  {
+    "id": "clix3ukrq001jsgtv68782h85",
+    "name": "EcoDrive",
+    "numberOfEmployees": 65,
+    "shortDescription": "Developing energy-efficient engines for next-gen vehicles.",
+    "avgYearlyRevenue": 6500000,
+    "stage": "Series A",
+    "hiring": false,
+    "location": "Dallas"
+  },
+  {
+    "id": "clix3ukrr001ksgtv81pp9df2",
+    "name": "SecureNet",
+    "numberOfEmployees": 50,
+    "shortDescription": "Innovative cybersecurity solutions for modern threats.",
+    "avgYearlyRevenue": 5000000,
+    "stage": "Series B",
+    "hiring": true,
+    "location": "Detroit"
+  },
+  {
+    "id": "clix3ukrs001lsgtv7jmc64jl",
+    "name": "SmartMed",
+    "numberOfEmployees": 130,
+    "shortDescription": "Personalized healthcare using IoT and AI technology.",
+    "avgYearlyRevenue": 13000000,
+    "stage": "IPO",
+    "hiring": false,
+    "location": "Miami"
+  },
+  {
+    "id": "clix3ukrt001msgtv16kc2siz",
+    "name": "GameGrid",
+    "numberOfEmployees": 40,
+    "shortDescription": "Blockchain-based platform for transparent gaming.",
+    "avgYearlyRevenue": 4000000,
+    "stage": "Seed",
+    "hiring": true,
+    "location": "Atlanta"
+  }
+]

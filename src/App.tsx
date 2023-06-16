@@ -1,9 +1,7 @@
-import { useEffect, useState } from "react";
 import { remult } from "remult";
 import { Company } from "./shared/Company";
-
-import { useRemultReactTable } from "./remult-react-table";
-import Table from "./Table";
+import { useRemultReactTable } from "./02-remult/remult-react-table";
+import Table from "./02-remult/Table";
 
 const companiesRepo = remult.repo(Company);
 

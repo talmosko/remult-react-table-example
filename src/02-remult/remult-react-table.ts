@@ -99,7 +99,3 @@ export function useRemultReactTable<entityType extends object>(
     pageCount,
   };
 }
-
-export declare type ReactDataFieldsAsColumns<entityType extends object> = {
-  [Properties in keyof Partial<OmitEB<entityType>>]?: Column<entityType>;
-};

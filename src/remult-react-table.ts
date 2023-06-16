@@ -18,7 +18,6 @@ export function useRemultReactTable<entityType extends object>(
   const [data, setData] = useState<entityType[]>([]);
   const [count, setCount] = useState(0);
   const [columnFilters, setColumnFilters] = useState<ColumnFiltersState>([]);
-  const [loading, setLoading] = useState(false);
   const fetchIdRef = useRef(0);
   const [limit, setLimit] = useState(10);
   const [page, setPage] = useState(1);
@@ -65,13 +64,18 @@ export function useRemultReactTable<entityType extends object>(
 
   useEffect(() => {
     let where: any = {};
+    let orderBy: any = {};
     for (const f of columnFilters) {
       where[f.id] = {
         $contains: f.value,
       } as ContainsStringValueFilter;
     }
-
-    repo.find({ where }).then(setData);
+    for (const s of sorting) {
+      orderBy[s.id] = s.desc ? "desc" : "asc";
+    }
+    repo.find({ where, orderBy }).then((data) => {
+      setData(data);
+    });
   }, [columnFilters]);
 
   //   console.log(data);
@@ -102,7 +106,7 @@ export function useRemultReactTable<entityType extends object>(
   return {
     data,
     columns,
-    state: { columnFilters },
+    state: { columnFilters, sorting },
     onColumnFiltersChange: setColumnFilters,
     // manualFilters: true,
     // initialState: {

@@ -11,9 +11,13 @@ import {
   ColumnDef,
   flexRender,
   createColumnHelper,
-  SortingState,
   getSortedRowModel,
+  TableOptions,
+  TableState,
+  OnChangeFn,
+  ColumnFiltersState,
 } from "@tanstack/react-table";
+import { useRemultReactTable } from "./remult-react-table";
 
 const companiesRepo = remult.repo(Company);
 
@@ -57,20 +61,27 @@ const columns = [
   }),
 ] as ColumnDef<Company>[];
 
-function Table({
+function Table<entityType>({
   data,
   columns,
+  state,
+  onColumnFiltersChange,
 }: {
-  data: Company[];
-  columns: ColumnDef<Company>[];
+  data: entityType[];
+  columns: ColumnDef<entityType>[];
+  state: Partial<TableState>;
+  onColumnFiltersChange: OnChangeFn<ColumnFiltersState>;
 }) {
   const table = useReactTable({
     data,
     columns,
+    state,
+    onColumnFiltersChange,
+    // Pipeline
     getCoreRowModel: getCoreRowModel(),
-    getFilteredRowModel: getFilteredRowModel(),
     getPaginationRowModel: getPaginationRowModel(),
     getSortedRowModel: getSortedRowModel(),
+    //
   });
 
   console.log(table.getState().columnFilters);
@@ -255,14 +266,16 @@ function Filter({
 }
 
 export default function App() {
-  const [companies, setCompanies] = useState<Company[]>([]);
+  // const [companies, setCompanies] = useState<Company[]>([]);
 
-  useEffect(() => {
-    companiesRepo.find({ orderBy: { stage: "asc" } }).then(setCompanies);
-  }, []);
+  const remultReactTable = useRemultReactTable(companiesRepo);
+
+  // useEffect(() => {
+  //   companiesRepo.find({ orderBy: { stage: "asc" } }).then(setCompanies);
+  // }, []);
   return (
     <div>
-      <Table data={companies} columns={columns} />
+      <Table {...remultReactTable} />
     </div>
   );
 }

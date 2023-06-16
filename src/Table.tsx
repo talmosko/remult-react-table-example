@@ -13,6 +13,8 @@ import {
   TableState,
   OnChangeFn,
   ColumnFiltersState,
+  SortingState,
+  PaginationState,
 } from "@tanstack/react-table";
 
 export default function Table<entityType>({
@@ -20,26 +22,31 @@ export default function Table<entityType>({
   columns,
   state,
   onColumnFiltersChange,
+  onPaginationChange,
+  onSortingChange,
+  pageCount,
 }: {
   data: entityType[];
   columns: ColumnDef<entityType>[];
   state: Partial<TableState>;
   onColumnFiltersChange: OnChangeFn<ColumnFiltersState>;
+  onSortingChange: OnChangeFn<SortingState>;
+  onPaginationChange: OnChangeFn<PaginationState>;
+  pageCount: number;
 }) {
   const table = useReactTable({
     data,
     columns,
     state,
-
+    pageCount,
+    onPaginationChange,
+    onSortingChange,
     onColumnFiltersChange,
-    // Pipeline
     getCoreRowModel: getCoreRowModel(),
-    getPaginationRowModel: getPaginationRowModel(),
-    getSortedRowModel: getSortedRowModel(),
-    //
+    manualPagination: true,
+    manualSorting: true,
+    manualFiltering: true,
   });
-
-  console.log(table.getState().columnFilters);
 
   return (
     <div className="p-2">

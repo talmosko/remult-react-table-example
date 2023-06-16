@@ -10,16 +10,6 @@
     "location": "San Francisco"
   },
   {
-    "id": "clix3ppxb0006sgtv4xy7ecc5",
-    "name": "EcoTrace",
-    "numberOfEmployees": 100,
-    "shortDescription": "Innovating the supply chain with eco-friendly AI analytics.",
-    "avgYearlyRevenue": 8000000,
-    "stage": "Series B",
-    "hiring": false,
-    "location": "Boston"
-  },
-  {
     "id": "clix3ppxi0007sgtv992m31cj",
     "name": "ZennithAI",
     "numberOfEmployees": 30,
@@ -538,5 +528,15 @@
     "stage": "Seed",
     "hiring": true,
     "location": "Atlanta"
+  },
+  {
+    "id": "cliygzy5i0000tetv7wgghfyf",
+    "name": "EcoTrace",
+    "numberOfEmployees": 100,
+    "shortDescription": "Innovating the supply chain with eco-friendly AI analytics.",
+    "avgYearlyRevenue": 8000000,
+    "stage": "Series B",
+    "hiring": false,
+    "location": "Boston"
   }
 ]

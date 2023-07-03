@@ -11,37 +11,37 @@ export function useRemultReactTable(repo: Repository<Company>) {
   const columns = [
     columnHelper.accessor("name", {
       header: "Name",
-      cell: (row) => row.getValue(),
+      cell: (cell) => cell.getValue(),
       footer: (props) => props.column.id,
     }),
     columnHelper.accessor("stage", {
       header: "Stage",
-      cell: (row) => row.getValue().id,
+      cell: (cell) => cell.getValue().id,
       footer: (props) => props.column.id,
     }),
     columnHelper.accessor("numberOfEmployees", {
       header: "Number Of Employees",
-      cell: (row) => row.getValue(),
+      cell: (cell) => cell.getValue(),
       footer: (props) => props.column.id,
     }),
     columnHelper.accessor("shortDescription", {
       header: "Short Description",
-      cell: (row) => row.getValue(),
+      cell: (cell) => cell.getValue(),
       footer: (props) => props.column.id,
     }),
     columnHelper.accessor("avgYearlyRevenue", {
       header: "Avg Yearly Revenue",
-      cell: (row) => row.getValue(),
+      cell: (cell) => cell.getValue(),
       footer: (props) => props.column.id,
     }),
     columnHelper.accessor("hiring", {
       header: "Hiring",
-      cell: (row) => row.getValue(),
+      cell: (cell) => cell.getValue(),
       footer: (props) => props.column.id,
     }),
     columnHelper.accessor("location", {
       header: "Location",
-      cell: (row) => row.getValue(),
+      cell: (cell) => cell.getValue(),
       footer: (props) => props.column.id,
     }),
   ] as ColumnDef<Company>[];
